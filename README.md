@@ -1,19 +1,15 @@
-Excel Data Viewer
+# Excel Data Viewer
 
-A simple React-based web application that allows users to upload an Excel file (.xlsx or .xls) and view its contents directly in the browser.
+A simple React-based web application that allows users to upload an Excel file (`.xlsx` or `.xls`) and view its contents directly in the browser.
 
-Features
+## Features
 
-Upload Excel files
+- Upload Excel files
+- Automatically reads the first worksheet
+- Displays data in a structured table
+- Clean and responsive UI
 
-Automatically reads the first worksheet
+## Tech Stack
 
-Displays data in a structured table
-
-Clean and responsive UI
-
-Tech Stack
-
-React (Vite)
-
-SheetJS (xlsx)
+- React (Vite)
+- SheetJS (`xlsx`)
