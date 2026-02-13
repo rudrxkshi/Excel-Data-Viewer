@@ -1,42 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page dark background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.app-container {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Title */
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: -1px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* File upload wrapper */
+.file-upload {
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Hide default ugly file input */
+input[type="file"] {
+  display: none;
 }
 
-.card {
-  padding: 2em;
+/* Custom button */
+.custom-file-button {
+  padding: 12px 24px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: inline-block;
 }
 
-.read-the-docs {
-  color: #888;
+.custom-file-button:hover {
+  background: #1d4ed8;
+}
+
+/* File name text */
+.file-name {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
 }
