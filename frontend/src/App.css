@@ -1,11 +1,10 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Full page dark background */
+
 body {
   min-height: 100vh;
   background: linear-gradient(135deg, #111827, #1f2937);
@@ -16,12 +15,12 @@ body {
   align-items: center;
 }
 
-/* Main container */
+
 .app-container {
   text-align: center;
 }
 
-/* Title */
+
 h1 {
   font-size: 3rem;
   font-weight: 600;
@@ -29,17 +28,17 @@ h1 {
   letter-spacing: -1px;
 }
 
-/* File upload wrapper */
+
 .file-upload {
   display: inline-block;
 }
 
-/* Hide default ugly file input */
+
 input[type="file"] {
   display: none;
 }
 
-/* Custom button */
+
 .custom-file-button {
   padding: 12px 24px;
   background: #2563eb;
@@ -55,7 +54,7 @@ input[type="file"] {
   background: #1d4ed8;
 }
 
-/* File name text */
+
 .file-name {
   margin-top: 1rem;
   font-size: 0.9rem;
